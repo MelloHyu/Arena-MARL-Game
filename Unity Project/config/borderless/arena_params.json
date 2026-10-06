@@ -1,0 +1,15 @@
+{
+    "mapSize": 30.0,
+    "wallsPosition": 200.0,
+
+    "numHidersMin": 3,
+    "numHidersMax": 3,
+    "numSeekersMin": 3,
+    "numSeekersMax": 3,
+    "agentRadius": 0.75,
+
+    "instantiateBoxes": true,
+    "numBoxesMin": 6,
+    "numBoxesMax": 8,
+    "objectRadius": 1.5
+}
