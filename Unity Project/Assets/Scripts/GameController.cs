@@ -124,6 +124,12 @@ public class GameController : MonoBehaviour
 
         statsRecorder = Academy.Instance.StatsRecorder;
 
+        Camera mainCam = Camera.main;
+        if (mainCam != null && mainCam.GetComponent<TacticalCameraController>() == null)
+        {
+            mainCam.gameObject.AddComponent<TacticalCameraController>();
+        }
+
         ResetScene();
     }
 
